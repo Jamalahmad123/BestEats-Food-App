@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+}
+
+.bg-hero {
+  background: url("./assets/bg-hero.jpg") rgb(81 79 79 / 0.8);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center 73%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
